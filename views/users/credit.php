@@ -108,7 +108,7 @@ include '././includes/navbarauth.php';
       <input type="checkbox" class="mx-2" >
       <p class="fw-bolder" style="display: contents; font-size: 0.9em;">Je reconnais avoir lu accepté les <a href="">Conditions Générales de Vente</a> (nos CGV ont évolué, n’hésitez pas à les consulter) et renonce à mon droit de rétractation. En validant ma commande j’accepte le commencement immédiat de la prestation.</p>
       <br>
-      <input type="submit" class="btn btn-primary mt-4 px-5 shadow-none" value="Valider">
+      <a href="/payment" class="btn btn-primary mt-4 px-5 shadow-none" >Valider</a>
   </form>
 
 

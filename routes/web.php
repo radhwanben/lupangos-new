@@ -25,6 +25,7 @@ $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $r) {
     $r->addRoute('GET', '/profile', 'views/users/profile.php');
     $r->addRoute('POST', '/profile/update', 'class/checkingusers.php');
     $r->addRoute('GET', '/buy-credit', 'views/users/credit.php');
+    $r->addRoute('GET', '/payment', 'views/users/payment.php');
     $r->addRoute('GET', '/abonnement', 'views/plans.php');
     $r->addRoute('GET', '/settings', 'views/users/setting.php');
     $r->addRoute('GET', '/messages', 'views/users/chats.php');
